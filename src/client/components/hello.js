@@ -7,12 +7,11 @@
  */
 
 import * as React from "react";
+import "./styles/style.css";
 
 const HelloWorld = () => (
-    <div>
+    <div className={"searchField"}>
         <h1>{"Trouvkash"}</h1>
-        <hr />
-        <h2> {"ATM disponible"}</h2>
     </div>
 );
 
