@@ -13,7 +13,6 @@ const HelloWorld = () => (
         <h1>{"Trouvkash"}</h1>
         <hr />
         <h2> {"ATM disponible"}</h2>
-        <small>{"becode/trouvkach"}</small>
     </div>
 );
 
