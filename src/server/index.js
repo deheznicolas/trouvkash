@@ -11,6 +11,7 @@ import express from "express";
 import path from "path";
 // Import Routes
 const postsRoutes = require("./routes/posts");
+const bodyParser = require("body-parser");
 
 const {APP_PORT} = process.env;
 
@@ -22,6 +23,8 @@ const mongoose = require("mongoose");
 // require("dotenv/config");
 
 app.use(express.static(path.resolve(__dirname, "../../bin/client")));
+
+app.use(bodyParser.json());
 
 // Middlewares
 app.use("/posts", postsRoutes);
