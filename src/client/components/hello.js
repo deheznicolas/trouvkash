@@ -7,7 +7,6 @@
  */
 
 import * as React from "react";
-import "./styles/style.css";
 
 const HelloWorld = () => (
     <div className={"searchField"}>
