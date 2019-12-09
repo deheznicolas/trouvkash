@@ -10,6 +10,11 @@ import * as React from "react";
 import ReactDOM from "react-dom";
 import "./styles/style.css";
 
+/*
+ * import banks from "../_dev/banks.json";
+ *import terminals from "../_dev/terminals.json";
+ */
+
 import HelloWorld from "./components/hello";
 
 ReactDOM.render(<HelloWorld />, document.querySelector("#app"));
