@@ -10,7 +10,7 @@ import * as React from "react";
 
 const HelloWorld = () => (
     <div className={"searchField"}>
-        <h1>{"Trouvkash"}</h1>
+        <h1>{"Trouvka$h"}</h1>
     </div>
 );
 
