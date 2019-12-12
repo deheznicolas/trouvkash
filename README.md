@@ -1,20 +1,12 @@
 # Node.JS: BeCode TrouvKach
-***
+
 > A simple react/node app, locating the ATMs nearby.
 
 * * *
 
-- Type of challenge: **consolidation for React, Learning for MongoDB**
-- Repository : **`trouvkach`**
-- Deadline : **13/12/2019 5:00 pm**
-- Team : **by team of 3 or 4**
-- Submission : **[Google Form]()**
-
-
-
 ## Introduction
 
-This project is focusing on the realisation of your very first WebApp and will fit perfectly your learning goals and comprehension of both React and Node. You will also have to use a third part API. 
+This project is focusing on the realisation of your very first WebApp and will fit perfectly your learning goals and comprehension of both React and Node. You will also have to use a third part API (this part is optionnal). 
 
 ## Specifications
 
@@ -64,8 +56,8 @@ Each bank is caracterised by :
 You are totally free on the design's choice and to complicatedevelop more functionnalities
 Your only constraint: you have to display the distance between the user and each ATM that are displayed.
 
-##### Interactive map
-You have to use an interactive map. OpenStreetMap is actually the best choice, you will have to use it with Leaflet. 
+##### Interactive map or not ?
+You are free to use an interactive map. OpenStreetMap is actually the best choice, you will have to use it with Leaflet. 
 
 > ☝️ **NOTE:** Adding and interactive map can be a really hard task, be sure that everything else is ok before working on it.
 
@@ -108,7 +100,7 @@ The whole project's code will be written in `src`.  The compiling tools are conf
 
 Back-end part will be compiled with [BabelJS](https://babeljs.io). The back-end's code is located in  `src/server`.
 
-We prepared for you a little snippet of functionnal code that configure your server **express**, an API route : `GET /hello` and the *middleware* **static** to display de client's files.
+We prepared for you a little snippet of functionnal code that configure your server **express**, an API route : `GET /hello` and the middleware *middleware* **static** to display de client's files.
 
 You are free to use this snippet or rewrite it. 
  
@@ -153,6 +145,11 @@ We are expecting a **functionnal** and *deployed* project.
 One of the solutions is to use  [**Heroku**](https://www.heroku.com). To host your Database, Heroku is working with [**mLab**](https://mlab.com) .
 
 * * *
+
+## Deadline
+
+The project **have** to be online the  **20/09/2019 16H59**.  
+We are expecting an e-mail for each group with a link to the repository and a link to the application in production.
 
 Have fun and good work.
 

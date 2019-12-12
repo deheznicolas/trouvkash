@@ -1,10 +1,8 @@
 import * as React from "react";
 import {createPortal} from "react-dom";
 import Button from "./button";
-import buttonClose from "./assets/close-button.png";
+import ButtonClose from "./assets/close-button.png";
 import ButtonDelete from "./assets/delete.png";
-import ModalUpdate from "./modal-update";
-import ButtonUpdate from "./assets/update.png";
 import Utile from "../js/utile";
 
 const styleModal = {
@@ -63,8 +61,6 @@ const styleButtonModif = {
     color: "#fff",
 };
 
-// Modal with settings "onClose", which will be called at the click
-// Allows the return to the initial value of the popup
 const Modal = props => {
     // Used to tell react to observe this variable that changes
     const [show, setShow] = React.useState(true);
@@ -72,8 +68,6 @@ const Modal = props => {
         // If false, the modal disappears
         return null;
     }
-    // Modale Update
-    const [showUpdate, setShowUpdate] = React.useState(false);
 
     //Button Modif vide ou plein
     const [modif, setModif] = React.useState(!!props.obj.empty); // !! = transforme en booleen
@@ -89,12 +83,12 @@ const Modal = props => {
             props.obj.empty = true;
         }
         setModif(props.obj.empty);
-        Utile.updateTerminal(props.obj._id, "empty", props.obj.empty);
+        Utile.updateTerminal(
+            props.obj._id,
+            "Le distributeur est vide",
+            props.obj.empty,
+        );
     };
-
-    if (showUpdate === true) {
-        return <ModalUpdate onClose={() => setShowUpdate(false)} />;
-    }
 
     return createPortal(
         <div style={styleModal}>
@@ -107,7 +101,7 @@ const Modal = props => {
                         setShow(false);
                         props.onClose();
                     }}
-                    img={buttonClose}
+                    img={ButtonClose}
                     alt={"button close"}
                 />
             </div>
@@ -146,10 +140,6 @@ const Modal = props => {
                     class={"buttonPopupAndModal"}
                     style={styleButtonDeleteUpdate}
                     value={"Update"}
-                    onClick={() => {
-                        setShowUpdate(true);
-                    }}
-                    img={ButtonUpdate}
                     alt={"button update"}
                 />
             </div>

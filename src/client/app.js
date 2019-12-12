@@ -5,9 +5,8 @@
  * coded by leny@BeCode
  * started at 06/09/2019
  */
-
 import "@babel/polyfill";
-import "../scss/styles.scss";
+import "./styles/style.css";
 
 import * as React from "react";
 import ReactDOM from "react-dom";

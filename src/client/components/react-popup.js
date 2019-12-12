@@ -24,11 +24,8 @@ const styleButton = {
 };
 
 const ReactPopup = props => {
-    // Used to tell react to observe this variable that changes
     const [show, setShow] = React.useState(false);
 
-    // In the "if", we need a function "onClose"
-    // which allows the return to the initial value of the show
     if (show === true) {
         return <Modal onClose={() => setShow(false)} obj={props.obj} />;
     }
@@ -60,7 +57,7 @@ const ReactPopup = props => {
     }
     return (
         <Popup>
-            <div style={styleTitle}>{"YOU !"}</div>
+            <div style={styleTitle}>{"Vous êtes ici."}</div>
         </Popup>
     );
 };
