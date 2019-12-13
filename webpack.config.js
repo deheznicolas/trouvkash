@@ -73,10 +73,6 @@ module.exports = env => {
                     ],
                 },
                 {
-                    test: /.css$/i,
-                    use: ["style-loader", "css-loader"],
-                    },
-                {
                     test: /\.js$/,
                     exclude: [/node_modules/],
                     use: [
@@ -106,6 +102,10 @@ module.exports = env => {
                             },
                         },
                     ],
+                },
+                {
+                    test: /\.(s*)css$/,
+                    use: ["style-loader", "css-loader", "sass-loader"],
                 },
             ],
         },
