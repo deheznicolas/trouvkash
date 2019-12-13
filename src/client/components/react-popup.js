@@ -20,7 +20,6 @@ const styleButton = {
     padding: "6px 5px 6px 5px",
     borderRadius: "10%",
     backgroundColor: "rgb(79,179,218)",
-    borderColor: "rgb(115,210,222)",
 };
 
 const ReactPopup = props => {

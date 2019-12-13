@@ -62,7 +62,7 @@ const ReactMap = () => {
                 ))}
                 <ReactMarker
                     position={[latitude, longitude]}
-                    title={"You are here"}
+                    title={"Vous êtes ici !"}
                 />
                 {$modalAddBank}
             </Map>

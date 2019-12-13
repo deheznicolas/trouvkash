@@ -5,25 +5,6 @@ import ButtonClose from "./assets/close-button.png";
 import ButtonDelete from "./assets/delete.png";
 import Utile from "../js/utile";
 
-const styleModal = {
-    display: "flex",
-    flexDirection: "column",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    backgroundColor: "#fff",
-    width: "50%",
-    height: "auto",
-    zIndex: "1000",
-    position: "absolute",
-    top: "25%",
-    left: "25%",
-    border: "20px solid rgba(0, 0, 0, 0.3)",
-    backgroundClip: "padding-box",
-    borderRadius: "1%",
-    paddingLeft: "15px",
-    paddingRight: "5px",
-    paddingBottom: "10px",
-};
 const styleDiv2 = {
     alignSelf: "center",
     alignItems: "center",
@@ -91,7 +72,7 @@ const Modal = props => {
     };
 
     return createPortal(
-        <div style={styleModal}>
+        <div>
             <div>
                 {/* on Click, we put in false (the show) with setShow */}
                 <Button
