@@ -21,7 +21,7 @@
       image: "mongo"
       restart: "always"
       ports:
-        - "27000:27017"
+        - "27017:27017"
       volumes:
         - "mongo_db:/data/db"
         - "./_dev:/usr/dump"
