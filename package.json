@@ -28,13 +28,12 @@
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-decorators": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/polyfill": "^7.6.0",
+    "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@becode/eslint-config": "^0.6.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.2",
-    "css-loader": "^3.2.0",
     "eslint": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
@@ -43,21 +42,16 @@
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.0.5",
     "lint-staged": "^9.2.5",
-    "node-sass": "^4.13.0",
     "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0",
+    "style-loader": "^1.0.1",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "assert": "^2.0.0",
-    "express": "^4.17.1",
-    "leaflet": "^1.5.1",
-    "mongodb": "^3.3.2",
-    "node-fetch": "^2.6.0",
     "body-parser": "^1.19.0",
+    "css-loader": "^3.3.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "leaflet": "^1.6.0",
@@ -65,8 +59,7 @@
     "mongoose": "^5.7.13",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-hook-form": "^3.23.9",
-    "react-leaflet": "^2.4.0"
+    "react-leaflet": "^2.6.0"
   },
   "husky": {
     "hooks": {

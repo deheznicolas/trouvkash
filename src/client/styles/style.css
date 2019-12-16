@@ -1,41 +1,7 @@
 body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
 }
 
-.leaflet-container {
-    height: 100vh;
-    width: 50%;
-}
-
-.leaflet-popup-content-wrapper {
-    box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.5);
-}
-
-.buttonModal {
-    &:hover {
-        border-radius: 50%;
-        box-shadow: 1px 1px 7px 1px grey;
-    }
-}
-.buttonAdd {
-    &:hover {
-        box-shadow: 1px 1px 20px 1px #2364aa;
-    }
-}
-
-label {
-    margin-right: 5px;
-}
-fieldset {
-    background-color: #e5f9fb;
-}
-
-.labelInput {
-    margin-bottom: 5px;
-}
-
-// Popup
-.listPopup {
-    // list-style-type: none;
+.searchField {
+    background-color: grey;
 }
