@@ -18,7 +18,6 @@ const styleButton = {
     color: "#fff",
     fontSize: "12px",
     padding: "6px 5px 6px 5px",
-    borderRadius: "10%",
     backgroundColor: "rgb(79,179,218)",
 };
 

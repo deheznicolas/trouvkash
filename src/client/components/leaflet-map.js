@@ -78,10 +78,9 @@ function LeafletMap() {
                                             {element.bankDetails[0].country}
                                             {")"}
                                         </h3>
-                                        <p>
-                                            <b>{"Address: "}</b>
-                                            {element.address}
-                                        </p>
+                                        <b>{"Adress: "}</b>
+                                        {element.address}
+
                                         <b>{"Website: "}</b>
                                         <a
                                             href={element.bankDetails[0].url}

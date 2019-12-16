@@ -1,22 +1,39 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: yellow;
+    background-color: #606060;
 }
 
 
-div.map{
-  width: 50%;
-}
 
-
-#leaflet-container {
+.leaflet-container {
   width:50% !important;
   height:100VH !important;
 }
 
 
+.leaflet-popup-content-wrapper{
+  border-radius: 0px;
+}
 
+button{
+  color: white !important;
+  background-color: #85bb65;
+  word-spacing: 0.25em;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border: none;
+  line-height: 13px;
+  padding: 12px 13px 11px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 18px;
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: #85AA65;
+}
 
 
 
