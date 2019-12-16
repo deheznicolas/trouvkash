@@ -10,6 +10,8 @@ import "./styles/style.css";
 
 import * as React from "react";
 import ReactDOM from "react-dom";
-import ReactMap from "./components/react-map";
 
-ReactDOM.render(<ReactMap />, document.querySelector("#app"));
+// import HelloWorld from "./components/hello";
+import LeafletMap from "./components/leaflet-map";
+
+ReactDOM.render(<LeafletMap />, document.querySelector("#app"));

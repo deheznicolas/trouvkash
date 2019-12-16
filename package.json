@@ -14,7 +14,7 @@
     "build:client": "npx webpack --progress --profile --colors",
     "work:client": "npx webpack --env=dev --progress",
     "build": "npm run build:server && npm run build:client",
-    "start": "node bin/server/index.js"
+    "start": "npm run build:server && npm run build:client"
   },
   "lint-staged": {
     "*.js": [
@@ -52,11 +52,12 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "leaflet": "^1.5.1",
-    "mongodb": "^3.3.2",
-    "node-fetch": "^2.6.0",
+    "leaflet": "^1.6.0",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.13",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-hook-form": "^3.23.9",

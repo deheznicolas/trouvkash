@@ -1,12 +1,20 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
 }
 
-.leaflet-container {
-    height: 100vh;
-    width: 50%
+
+div.map{
+  width: 50%;
 }
+
+
+#leaflet-container {
+  width:50% !important;
+  height:100VH !important;
+}
+
 
 
 
